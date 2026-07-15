@@ -34,4 +34,3 @@ class Livro:
             f"'{self.titulo}' de {self.autor} "
             f"(ISBN: {self.isbn}) [{status}]"
             )
-    
