@@ -35,3 +35,4 @@ class Livro:
             f"(ISBN: {self.isbn}) [{status}]"
         )
     
+    
