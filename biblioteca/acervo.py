@@ -34,3 +34,4 @@ class Acervo:
     def livros_emprestados(self):
         """Retorna lista de livros atualmente emprestados."""
         return [livro for livro in self.livros if not livro.disponivel]
+    
