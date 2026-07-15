@@ -32,5 +32,6 @@ class Livro:
         status = "Disponivel" if self.disponivel else "Emprestado"
         return (
             f"'{self.titulo}' de {self.autor} "
-            f"(ISBN: {self.isbn}) [{status}]")
-  
+            f"(ISBN: {self.isbn}) [{status}]"
+            )
+    
